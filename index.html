@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -13,24 +14,42 @@
       padding: 30px;
       background: #f3eee3;
     }
+
     header {
-  text-align: center;
-  margin-bottom: 35px;
-  font-family: 'Kaushan Script', cursive;
-  font-size: 48px;
-  letter-spacing: 1px;
-  font-weight: 400;
-}
+      text-align: center;
+      margin-bottom: 35px;
+      font-family: 'Kaushan Script', cursive;
+      font-size: 48px;
+      letter-spacing: 1px;
+      font-weight: 400;
+    }
+
+    .instagram {
+      display: block;
+      margin-top: 8px;
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      letter-spacing: 1px;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .instagram:hover {
+      text-decoration: underline;
+    }
+
     .gallery {
       display: grid;
       grid-template-columns: repeat(6, 1fr);
       gap: 18px;
     }
+
     .gallery img {
       display: block;
       width: 100%;
       height: auto;
     }
+
     @media (max-width: 700px) {
       .gallery {
         grid-template-columns: repeat(2, 1fr);
@@ -38,23 +57,13 @@
     }
   </style>
 </head>
+
 <body>
   <header>
-  INK UGLY
-  <a class="instagram" href="https://www.instagram.com/ink.02.09/" target="_blank" rel="noopener noreferrer">@ink.02.09</a>
-</header>
-  .instagram {
-  display: block;
-  margin-top: 8px;
-  font-family: Arial, sans-serif;
-  font-size: 13px;
-  letter-spacing: 1px;
-  color: #333;
-  text-decoration: none;
-}
-.instagram:hover {
-  text-decoration: underline;
-}
+    INK UGLY
+    <a class="instagram" href="https://www.instagram.com/ink.02.09/" target="_blank" rel="noopener noreferrer">@ink.02.09</a>
+  </header>
+
   <main class="gallery">
     <img src="images/ugly1.png" alt="">
     <img src="images/ugly2.png" alt="">
